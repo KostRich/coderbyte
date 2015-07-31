@@ -1,0 +1,10 @@
+def SimpleAdding(num)
+  sum = 0
+  while num != 0
+    sum = num+sum
+    num=num-1
+  end
+  return sum
+end
+
+SimpleAdding(STDIN.gets)  
