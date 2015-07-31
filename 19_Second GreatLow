@@ -1,0 +1,12 @@
+def SecondGreatLow(arr)
+  leng=0
+  c = arr.sort
+  c.each do|p|
+    leng = leng+1
+  end
+  a = c[1]
+  b = c[leng-2]
+  ar=[a,b]
+  return ar
+end
+SecondGreatLow(STDIN.gets)  
